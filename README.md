@@ -16,7 +16,7 @@ To study and implement Pointer Operations (Call by value and Call by reference)
 
 
 ### CODE1:
-
+```
 /*Saanvi mohapatra
 23070123110
 ENTC B2
@@ -39,15 +39,15 @@ int main()
     cout<<"Value of b is: "<<b<<"\n";
     return 0;
 }
-
+```
 ### OUTPUT:
-
+```
 [Running] cd "c:\Users\Saanvi\Desktop\CDS\" && g++ EXP10_1.cpp -o EXP10_1 && "c:\Users\Saanvi\Desktop\CDS\"EXP10_1
 Value of a is: 20
 Value of b is: 50
-
+```
 ### Code 2:
-
+```
 /*Saanvi
 23070123110
 ENTC B2
@@ -70,16 +70,16 @@ int main()
     cout<<"Value of b is: "<<b<<"\n";
     return 0;
 }
-
+```
 ### output:
-
+```
 [Running] cd "c:\Users\Saanvi\Desktop\CDS\" && g++ tempCodeRunnerFile.cpp -o tempCodeRunnerFile && "c:\Users\Saanvi\Desktop\CDS\"tempCodeRunnerFile
 Value of a is: 34
 Value of b is: 32
-
+```
 ### Code 3:
 
-
+```
 /*Saanvi
 23070123112
 ENTC B2
@@ -101,15 +101,15 @@ int main()
     cout<<"Value of b is: "<<b<<"\n";
     return 0;
 }
-
+```
 ### Output:
-
+```
 [Running] cd "c:\Users\Saanvi\Desktop\CDS\" && g++ tempCodeRunnerFile.cpp -o tempCodeRunnerFile && "c:\Users\Saanvi\Desktop\CDS\"tempCodeRunnerFile
 Value of a is: 24
 Value of b is: 12
 
 [Done] exited with code=0 in 0.379 seconds
-
+```
 ## Conclusion:
 
 Call by Value 1 is effective when you need to maintain the integrity of the original data and when working with small or primitive data types where copying overhead is minimal. It provides safety against unintended modifications but can become inefficient with large data.
